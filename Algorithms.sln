@@ -3,12 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Algorithms", "src\AspNet.Algorithms\AspNet.Algorithms.csproj", "{96EA8C20-0633-41C5-A15B-080DFC3F3C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Algorithms.Test", "test\AspNet.Algorithms.Test\AspNet.Algorithms.Test.csproj", "{77808BE9-13CD-45B5-8E73-97D99BAA2458}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96EA8C20-0633-41C5-A15B-080DFC3F3C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EA8C20-0633-41C5-A15B-080DFC3F3C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EA8C20-0633-41C5-A15B-080DFC3F3C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EA8C20-0633-41C5-A15B-080DFC3F3C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77808BE9-13CD-45B5-8E73-97D99BAA2458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77808BE9-13CD-45B5-8E73-97D99BAA2458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77808BE9-13CD-45B5-8E73-97D99BAA2458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77808BE9-13CD-45B5-8E73-97D99BAA2458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEFE836D-2760-48DB-BAC0-FB7017CE25AB}
 	EndGlobalSection
 EndGlobal
